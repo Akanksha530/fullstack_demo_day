@@ -1,0 +1,42 @@
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-1 {
+  background-image: url('https://images.unsplash.com/photo-1457131760772-7017c6180f05?q=80&w=2053&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  min-height: 80%;
+}
+
+.bgimg-2 {
+  background-image: url("https://www.wallpapertip.com/wmimgs/28-284704_girl-cartoon-pic-download.jpg");
+  min-height: 400px;
+}
+
+
+.bgimg-3 {
+  background-image: url("https://media.istockphoto.com/id/1138139126/photo/little-girl-painting-easter-egg-on-old-wooden-table.jpg?s=1024x1024&w=is&k=20&c=m2R34tPAVY0Y2ZcKlCBkarvV4QRW7Vxr2JhRI1XJjHw=");
+  min-height: 1000px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+
