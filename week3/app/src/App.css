@@ -1,0 +1,31 @@
+body {
+    background-image: url(https://plus.unsplash.com/premium_photo-1661277731403-f5f8f237ae2e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+  }
+  
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+  }
+  
+  .card {
+    margin: 20px;
+  }
+  
+  .joke {
+    font-size: 2.5em;
+    margin-top: 20px;
+  }
+  
+  .button {
+    padding: 40px 10px;
+    font-size: 5em;
+    cursor: pointer;
+    margin-top: 10px;
+  }
